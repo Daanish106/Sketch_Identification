@@ -1,0 +1,38 @@
+body
+{
+    background-color: aquamarine;
+}
+
+h1
+{
+    color: crimson;
+    background: darkcyan;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid rgb(0, 209, 122);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rgb(7, 46, 129);}
+    to{box-shadow: 1px 1px 38px rgb(10, 131, 20)}
+}
+
+p
+{
+    padding-top: 10px;  
+    font-size: 28px;
+    
+}
